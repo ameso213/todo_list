@@ -1,0 +1,44 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This will make the container take up the full height of the viewport */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/EVEREST.jpg'); /* Replace 'images/fog-dark-clouds-mountains.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white; /* Change text color to white for better visibility */
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px; /* Increased spacing between list items */
+}
+
+button {
+    cursor: pointer;
+    background-color:darkblue; /* Change button background color to green */
+    color:white; /* Change button text color to white */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Add border radius to the button */
+    margin-top: 10px; /* Add margin to the top of the button */
+}
+h1{color:white;
+
+}
+
+
+	
